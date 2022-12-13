@@ -5,23 +5,50 @@
  Author:         Craft Studio
  Author URI:     https://www.elegantthemes.com
  Template:       Divi
- Version:        1.0.13
+ Version:        1.1.0
 */
 
 /*--------------- Singlepage ---------------*/
 
 /* style på button*/
-.woocommerce div.product form.cart .button {
-	background-color: #292f30 !important;
+
+button.single_add_to_cart_button.button.alt {
+	background: #292f30 !important;
 	color: #fcfaf8;
 	border-radius: 100px;
 	font-family: "raleway", sans-serif;
-	padding-inline: 32px;
-	padding-block: 10px;
 	font-size: 16px;
+	padding-block: 10px;
+	padding-inline: 32px;
 }
-.woocommerce div.product form.cart .button:hover {
+button.single_add_to_cart_button.button.alt:hover {
 	background: rgba(41, 47, 48, 0.77) !important;
+	border-radius: 100px;
+	padding-block: 10px;
+	padding-inline: 32px;
+}
+/* Knap styling og fjern ikon pil */
+.woocommerce #content input.button.alt:after,
+.woocommerce #content input.button:after,
+.woocommerce #respond input#submit.alt:after,
+.woocommerce #respond input#submit:after,
+.woocommerce a.button.alt:after,
+.woocommerce a.button:after,
+.woocommerce button.button.alt:after,
+.woocommerce button.button:after,
+.woocommerce input.button.alt:after,
+.woocommerce input.button:after,
+.woocommerce-page #content input.button.alt:after,
+.woocommerce-page #content input.button:after,
+.woocommerce-page #respond input#submit.alt:after,
+.woocommerce-page #respond input#submit:after,
+.woocommerce-page a.button.alt:after,
+.woocommerce-page a.button:after,
+.woocommerce-page button.button.alt:after,
+.woocommerce-page button.button:after,
+.woocommerce-page input.button.alt:after,
+.woocommerce-page input.button:after {
+	content: none !important;
 }
 
 /*prisfarve fra blå*/
