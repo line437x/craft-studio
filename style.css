@@ -1,0 +1,148 @@
+/*
+ Theme Name:     Divi Child
+ Theme URI:      https://www.elegantthemes.com/gallery/divi/
+ Description:    Divi Child Theme
+ Author:         Craft Studio
+ Author URI:     https://www.elegantthemes.com
+ Template:       Divi
+ Version:        1.0.13
+*/
+
+/*--------------- Singlepage ---------------*/
+
+/* style på button*/
+.woocommerce div.product form.cart .button {
+	background-color: #292f30 !important;
+	color: #fcfaf8;
+	border-radius: 100px;
+	font-family: "raleway", sans-serif;
+	padding-inline: 32px;
+	padding-block: 10px;
+	font-size: 16px;
+}
+.woocommerce div.product form.cart .button:hover {
+	background: rgba(41, 47, 48, 0.77) !important;
+}
+
+/*prisfarve fra blå*/
+.woocommerce-page div.product p.price {
+	color: #292f30;
+	font-family: "Raleway", sans-serif;
+	font-weight: 800;
+	padding-bottom: 30px;
+}
+
+/*style af produktbeskrivelse på singlepage*/
+p:not(.has-background):last-of-type {
+	padding-bottom: 0;
+}
+
+.woocommerce-product-details__short-description p {
+	padding-bottom: 30px !important;
+}
+/*style af produktnavn på singlepage*/
+.woocommerce div.product .product_title {
+	font-family: "Poppins", sans-serif;
+	font-weight: 600;
+	font-size: 40px;
+}
+/*produkt-tæller*/
+.woocommerce .quantity input.qty {
+	line-height: 0;
+}
+
+/*brødkrummesti*/
+.woocommerce .woocommerce-breadcrumb {
+	display: none;
+}
+/*kategori-tag*/
+.product_meta {
+	display: none;
+}
+
+/*Singlepage padding*/
+.woocommerce div.product .product_title {
+	padding-bottom: 14px;
+}
+
+/*singlepage h1*/
+h1.woocommerce-products-header__title.page-title {
+	font-family: "Poppins", sans-serif;
+	font-weight: 600;
+}
+/*pris*/
+.woocommerce-Price-amount.amount {
+	font-weight: 800;
+	font-family: "Raleway", sans-serif;
+	color: #292f30;
+	font-size: 14px;
+}
+
+/*relaterede produkter*/
+.et_overlay::before {
+	color: #646a62;
+}
+.et_overlay {
+	background: hsla(0, 0%, 100%, 0.39) !important;
+}
+
+/*--------------- Shop ---------------*/
+/*centrering af produktoversigt*/
+.et_right_sidebar #left-area {
+	padding-right: 0;
+}
+
+@media (min-width: 981px) {
+	#left-area {
+		width: 100%;
+	}
+	.et_right_sidebar #main-content .container:before {
+		display: none !important;
+	}
+	/*h1*/
+	h1.woocommerce-products-header__title.page-title {
+		/* font-family: "Poppins", sans-serif; */
+		font-size: 40px;
+		/* font-weight: 600; */
+		text-align: center;
+		margin-bottom: 100px;
+	}
+}
+
+/* "Skift side" styling */
+a {
+	color: #292f30;
+}
+.woocommerce nav.woocommerce-pagination ul li a:hover {
+	background: #292f30;
+	color: #fcfaf8;
+}
+.woocommerce nav.woocommerce-pagination ul li {
+	border-right: none;
+}
+.woocommerce nav.woocommerce-pagination ul {
+	border: none;
+}
+.woocommerce nav.woocommerce-pagination ul li span.current {
+	background: none;
+}
+
+/*Fonts*/
+h2 {
+	font-family: "Poppins", sans-serif;
+	font-size: 26px;
+}
+/*Baggrundsfarve*/
+#main-content {
+	background-color: #fcfaf8;
+}
+/*Padding under produktbillede*/
+.woocommerce div.product div.images .woocommerce-product-gallery__wrapper {
+	padding-bottom: 50px;
+}
+/*font size på navn på relaterede produkter*/
+.woocommerce ul.products li.product .woocommerce-loop-category__title,
+.woocommerce ul.products li.product .woocommerce-loop-product__title,
+.woocommerce ul.products li.product h3 {
+	font-size: 1em !important;
+}
