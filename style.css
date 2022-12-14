@@ -5,7 +5,6 @@
  Author:         Craft Studio
  Author URI:     https://www.elegantthemes.com
  Template:       Divi
-<<<<<<< HEAD
  Version:        1.1.5
 */
 /*--------------- menu ---------------*/
@@ -17,10 +16,6 @@
 ul.sub-menu {
 	border: none !important;
 }
-=======
- Version:        1.1.0
-*/
->>>>>>> ba8afb328dcb49de88f040904ebf6270582299f3
 
 /*--------------- Singlepage ---------------*/
 
@@ -34,7 +29,6 @@ button.single_add_to_cart_button.button.alt {
 	font-size: 16px;
 	padding-block: 10px;
 	padding-inline: 32px;
-<<<<<<< HEAD
 	border: none;
 }
 button.single_add_to_cart_button.button.alt:hover {
@@ -43,14 +37,6 @@ button.single_add_to_cart_button.button.alt:hover {
 	padding-block: 10px;
 	padding-inline: 32px;
 	color: #fcfaf8;
-=======
-}
-button.single_add_to_cart_button.button.alt:hover {
-	background: rgba(41, 47, 48, 0.77) !important;
-	border-radius: 100px;
-	padding-block: 10px;
-	padding-inline: 32px;
->>>>>>> ba8afb328dcb49de88f040904ebf6270582299f3
 }
 /* Knap styling og fjern ikon pil */
 .woocommerce #content input.button.alt:after,
@@ -92,7 +78,6 @@ p:not(.has-background):last-of-type {
 .woocommerce-product-details__short-description p {
 	padding-bottom: 30px !important;
 }
-<<<<<<< HEAD
 .woocommerce-product-details__short-description {
 	font-family: "Raleway", sans-serif;
 	color: #292f30;
@@ -103,8 +88,6 @@ p:not(.has-background):last-of-type {
 	text-decoration-line: underline;
 }
 
-=======
->>>>>>> ba8afb328dcb49de88f040904ebf6270582299f3
 /*style af produktnavn på singlepage*/
 .woocommerce div.product .product_title {
 	font-family: "Poppins", sans-serif;
@@ -117,16 +100,10 @@ p:not(.has-background):last-of-type {
 }
 
 /*brødkrummesti*/
-<<<<<<< HEAD
 .woocommerce-breadcrumb {
 	font-family: "Raleway", sans-serif;
 }
 
-=======
-.woocommerce .woocommerce-breadcrumb {
-	display: none;
-}
->>>>>>> ba8afb328dcb49de88f040904ebf6270582299f3
 /*kategori-tag*/
 .product_meta {
 	display: none;
@@ -158,7 +135,6 @@ h1.woocommerce-products-header__title.page-title {
 	background: hsla(0, 0%, 100%, 0.39) !important;
 }
 
-<<<<<<< HEAD
 /*Beskedfelt om "lagt i kurv"*/
 a.button.wc-forward {
 	display: none;
@@ -185,8 +161,6 @@ a.button.wc-forward {
 	background: none !important;
 }
 
-=======
->>>>>>> ba8afb328dcb49de88f040904ebf6270582299f3
 /*--------------- Shop ---------------*/
 /*centrering af produktoversigt*/
 .et_right_sidebar #left-area {
